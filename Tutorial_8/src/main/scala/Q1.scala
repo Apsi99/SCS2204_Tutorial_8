@@ -1,6 +1,6 @@
 case class Point(var x: Int, var y: Int) {
 
-  def add(a:Point) = new Point(this.x + a.x, this.y + a.y)    //(6+4 , 3+10)
+  def add(a:Point) = new Point(this.x + a.x, this.y + a.y)    //(6+4 , 3+10) = (10,13)
 
   def move(x:Int, y:Int):Unit = {
     this.x = this.x + x         // 4+1 = 5
